@@ -103,3 +103,11 @@ async function buildTransactionReportTable() {
 function resetMonthlyReportsContainer() {
     document.getElementById("monthly-reports-container").innerHTML = "";
 } 
+
+async function retrieveTransactionReportData() {
+    let response = await fetch("https://api.jsonbin.io/b/6073a0670ed6f819bea9461c" {
+        headers: {
+            "Content-Type": "application/json",
+            "secret-key": "$2b$10$s1vBjFqln1F3PwECEsdTn.WlzPw7Xy3UHvlawaCJJ5yPzjqvUSbhu"
+        }
+    });

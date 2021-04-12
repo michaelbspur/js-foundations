@@ -1,2 +1,2 @@
 # js-foundations
-Homework #3 for Web Development
+Homework/ Labs for Web Development Course
